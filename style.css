@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #fffeff;
+    border: 20px;
 }
 header{
     background-color: #fffeff;
@@ -54,4 +55,37 @@ border: 0;
 background-color: #171715;
 color: #fff;
 font-weight: 550;
+}
+
+main {
+  margin-top: 76px;
+}
+
+.hero {
+  display: flex;
+  padding: 0 20px;
+}
+
+.hero > div {
+  width: 50%;
+}
+
+#right > img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#left {
+  background-color: #f5f5f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#left > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
